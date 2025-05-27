@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página con Enlaces</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #35424a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            background: #e8491d;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #35424a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a Mi Sitio Web</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="https://www.ejemplo.com" target="_blank">Sitio Externo</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Contenido Principal</h2>
+        <p>Esta es la página principal de mi sitio web. Desde aquí puedes navegar a otras secciones usando los enlaces
+            de arriba.</p>
+
+        <h3>Enlaces útiles:</h3>
+        <ul>
+            <li><a href="blog.html">Visita nuestro blog</a></li>
+            <li><a href="recursos/.html" download>Descarga nuestra guía (PDF)</a></li>
+            <li><a href="#seccion2">Ir a sección 2 (en esta misma página)</a></li>
+        </ul>
+    </section>
+
+    <section id="seccion2">
+        <h2>Sección 2</h2>
+        <p>Este es otro contenido en la misma página. Puedes volver al <a href="#">inicio de la página</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
+        <p><a href="politica-privacidad.html">Política de Privacidad</a> | <a href="terminos.html">Términos de Uso</a>
+        </p>
+    </footer>
+</body>
+
+</html>
